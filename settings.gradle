@@ -1,0 +1,6 @@
+rootProject.name = 'workqueue'
+
+include 'workqueue-common'
+include 'workqueue-handlers'
+include 'workqueue-producer'
+include 'workqueue-worker'
