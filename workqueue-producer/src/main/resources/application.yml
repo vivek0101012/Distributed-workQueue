@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: workqueue-producer
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+workqueue:
+  default-max-attempts: 3

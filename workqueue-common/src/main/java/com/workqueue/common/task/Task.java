@@ -1,9 +1,10 @@
 package com.workqueue.common.task;
 
+import org.springframework.stereotype.Component;
+
 import java.time.Instant;
 import java.util.Map;
 import java.util.UUID;
-
 public record Task(String id,
                    String type,
                    Map<String,Object> payload,
