@@ -5,6 +5,10 @@ plugins {
 dependencies {
     implementation project(':workqueue-common')
     implementation project(':workqueue-handlers')
+
+    implementation 'org.apache.commons:commons-pool2'
+
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
 bootJar {
